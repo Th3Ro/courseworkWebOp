@@ -4,19 +4,19 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
- * Класс ошибки, возникающей при обращении к несуществующему ресурсу
+ * Class of the error that occurs when accessing a nonexistent resource
  * @author Nosolenko
  * @version 1.0
  */
 @ResponseStatus(value = HttpStatus.NOT_FOUND)
 public class ResourceNotFoundException extends RuntimeException {
 
-    /** UID, необходимый для сериализации */
+    /** UID required for serialization */
     private static final long serialVersionUID = 1L;
 
     /**
-     * Процедура вывода сообщения об ошибке
-     * @param message - сообщение ошибки
+     * Error message display procedure
+     * @param message - error message
      */
     public ResourceNotFoundException(String message) {
         super(message);
