@@ -1,2 +1,3 @@
-# courseworkWebOp
+# courseworkWebOp - "Sports Betting Site"
  Web-op applications course project.
+ This project is built using Spring, Hibernate, Bootstrap and React.js. To work with this project, you will need a MySQL database (by default on port 3306) with the name "coursework", username "root", password "root", you may also have to select your time zone, all this must be specified in the file "src/main/application.properties". First, run the project on Spring, then the React.js project (you need to open the react-frontend folder in the console and write "npm start"), then open your browser and go to "localhost:3000". Enjoy.
